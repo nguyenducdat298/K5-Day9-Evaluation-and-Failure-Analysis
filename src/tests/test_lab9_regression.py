@@ -69,6 +69,7 @@ def test_no_pre_deduct_catches_fm05():
 
 
 def test_advanced_integrity_catches_hidden_traps():
+    pytest.importorskip("lab8")
     import copy
     from lab9 import gate
 
